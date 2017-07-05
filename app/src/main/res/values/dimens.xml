@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_for_search_button">20dp</dimen>
+
+    <dimen name="marginPresentation">15dp</dimen>
+    <dimen name="paddingDetails">8dp</dimen>
+    <dimen name="textSizeTitle">20sp</dimen>
+    <dimen name="textSizeDetails">14sp</dimen>
+</resources>

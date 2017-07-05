@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackround"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/marginPresentation"
+    android:paddingLeft="@dimen/marginPresentation"
+    android:paddingRight="@dimen/marginPresentation"
+    android:paddingStart="@dimen/marginPresentation">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/marginPresentation"
+        android:layout_marginStart="@dimen/marginPresentation"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:padding="@dimen/paddingDetails"
+            android:textAllCaps="true"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/textSizeTitle"
+            tools:text="@string/title" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/paddingDetails"
+            android:paddingLeft="@dimen/paddingDetails"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/textSizeDetails"
+            tools:text="@string/author" />
+
+
+    </LinearLayout>
+</LinearLayout>

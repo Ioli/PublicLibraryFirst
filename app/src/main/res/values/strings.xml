@@ -1,0 +1,19 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Public Library First</string>
+
+
+    <!-- Label for searching the desired book [CHAR LIMIT=20] -->
+    <string name="which_title_search">Which book (Title) Searching for?</string>
+    <string name="search_button">Tap to search...</string>
+    <string name="title">The title of the book</string>
+    <string name="author">The author of the book</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="renew_title">Renew the Results</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <!-- Text to display in the list when there are no books like your desire in public library [CHAR LIMIT=NONE] -->
+    <string name="no_results">No books like your desire found.</string>
+</resources>
